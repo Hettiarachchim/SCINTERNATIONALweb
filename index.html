@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SC International - Quality Auto Parts Importer and Installer in Sri Lanka">
+    <title>SC International</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom Tailwind Extensions */
+        .text-brand {
+            color: Blue;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans antialiased">
+
+    <!-- Navbar -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-brand">SC International</h1>
+            <nav class="space-x-4 text-gray-700">
+                <a href="#services" class="hover:text-brand">Services</a>
+                <a href="#about" class="hover:text-brand">About Us</a>
+                <a href="#contact" class="hover:text-brand">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-50 py-20 text-center relative">
+        <div class="container mx-auto px-6">
+            <div class="mb-6">
+                <img src="your-hero-image.jpg" alt="Auto Parts Importer" class="w-full h-64 object-cover rounded-md shadow-md">
+            </div>
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Quality Auto Parts, Exceptional Service</h2>
+            <p class="text-lg text-gray-600 mb-8">Importing high-quality auto parts from Japan with trusted service across Sri Lanka.</p>
+            <a href="#contact" class="bg-brand text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container mx-auto px-6 py-12">
+        <h3 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Our Services</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 shadow-lg rounded-md">
+                <img src="import-services.jpg" alt="Auto Parts Import" class="w-full h-40 object-cover rounded-md mb-4">
+                <h4 class="text-2xl font-semibold text-brand mb-3">Auto Parts Import</h4>
+                <p class="text-gray-600">Sourcing premium Japanese auto parts to meet the needs of customers across Sri Lanka.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-md">
+                <img src="hybrid-battery.jpg" alt="Hybrid Battery Solutions" class="w-full h-40 object-cover rounded-md mb-4">
+                <h4 class="text-2xl font-semibold text-brand mb-3">Hybrid Battery Solutions</h4>
+                <p class="text-gray-600">Specializing in the import and installation of hybrid batteries for enhanced vehicle efficiency.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-md">
+                <img src="abs-system.jpg" alt="ABS Systems" class="w-full h-40 object-cover rounded-md mb-4">
+                <h4 class="text-2xl font-semibold text-brand mb-3">ABS System Installation</h4>
+                <p class="text-gray-600">Reliable ABS systems installation for improved safety and performance on the road.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-gray-50 py-20">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-semibold text-gray-800 mb-6 text-center">About SC International</h3>
+            <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-8">SC International has been a trusted name in Sri Lanka for importing high-quality auto parts from Japan. We pride ourselves on providing reliable and efficient service to meet the needs of modern vehicle owners. Our team is committed to excellence and customer satisfaction, ensuring every product we deliver meets the highest standards of quality.</p>
+            <div class="max-w-lg mx-auto">
+                <img src="about-us-image.jpg" alt="Our Team" class="rounded-md shadow-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto px-6 py-12">
+        <h3 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Get in Touch</h3>
+        <p class="text-center text-gray-600 mb-8">Interested in our services? Contact us today to learn more about our offerings.</p>
+        <form class="max-w-md mx-auto bg-white p-8 shadow-md rounded-md">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700 font-semibold">Name</label>
+                <input type="text" id="name" class="w-full mt-2 p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-brand" placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 font-semibold">Email</label>
+                <input type="email" id="email" class="w-full mt-2 p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-brand" placeholder="Your Email">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-700 font-semibold">Message</label>
+                <textarea id="message" class="w-full mt-2 p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-brand" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="bg-brand text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 w-full">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6 text-white">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 SC International. All rights reserved.</p>
+            <p class="text-gray-400">Follow us on <a href="https://www.facebook.com/profile.php?id=61553921267618&mibextid=LQQJ4d" target="_blank" class="text-brand hover:underline">Facebook</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
